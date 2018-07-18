@@ -11,7 +11,13 @@
   <script src="node_modules/systemjs/dist/system.js"></script>
   <script charset="utf-8">
     SystemJS.config({
+      sofe: {
+        manifest: {
+          "anything": "http://ielocal:8080/component.js"
+        }
+      },
       map: {
+        "sofe": "node_modules/sofe/dist/sofe.js",
         "plugin-babel": "node_modules/systemjs-plugin-babel/plugin-babel.js",
         "systemjs-babel-build":
           "node_modules/systemjs-plugin-babel/systemjs-babel-browser.js",

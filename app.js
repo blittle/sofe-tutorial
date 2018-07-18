@@ -1,2 +1,1 @@
-import './component.js';
-import React from 'react';
+import 'anything!sofe';
